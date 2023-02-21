@@ -12,9 +12,9 @@ export class Error extends Component<ErrorBoundaryProps> {
         error: '',
     };
 
-    constructor(props: ErrorBoundaryProps) {
-        super(props);
-    }
+    // constructor(props: ErrorBoundaryProps) {
+    //     super(props);
+    // }
 
     static getDerivedStateFromError(error: string) {
         return { hasError: true, error };

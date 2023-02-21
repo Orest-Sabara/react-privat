@@ -13,10 +13,9 @@ export const TableDate: FC = () => {
     const { currencies } = useAppSelector((state) => state.converter);
 
     useEffect(() => {
-
         throwFakeError();
-
         getCurrency();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
