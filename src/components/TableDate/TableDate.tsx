@@ -22,7 +22,7 @@ export const TableDate: FC = () => {
     return (
         <>
             <div className="container">
-                <div className="table-container">
+                <div className="tableContainer">
                     <table>
                         <thead>
                         <tr>

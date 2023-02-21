@@ -1,13 +1,13 @@
-.change-currency-container {
+.changeCurrencyContainer {
     width: 100%;
     padding: 20px;
     display: flex;
     justify-content: center;
 }
-.currency-input:hover {
+.currencyInput:hover {
     cursor: not-allowed;
 }
-.swipe-button {
+.swipeButton {
     display: flex;
     justify-content: center;
 }

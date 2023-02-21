@@ -19,7 +19,7 @@
 //   currencies: CurrencyInterface[];
 // }
 
-import { SelectChangeEvent, SelectProps } from '@mui/material';
+import { SelectChangeEvent } from '@mui/material';
 import { Dispatch, SetStateAction } from 'react';
 
 export enum CurrencyType {

@@ -48,7 +48,7 @@ export const Convertor: FC<ConvertorPropsInterface> = ({ currencies }) => {
 
     return (
         <div>
-            <div className="change-currency-container">
+            <div className="changeCurrencyContainer">
                 <div>
                     <StyledTextField
                         id="outlined-basic"
@@ -77,14 +77,14 @@ export const Convertor: FC<ConvertorPropsInterface> = ({ currencies }) => {
                 </div>
             </div>
             <div>
-                <div className="swipe-button">
+                <div className="swipeButton">
                     <MdOutlineChangeCircle
                         size={30}
                         color="black"
                         onClick={swipeCurrency}
                     />
                 </div>
-                <div className="change-currency-container">
+                <div className="changeCurrencyContainer">
                     <div >
                         <StyledTextField
                             id="outlined-basic"
@@ -102,7 +102,7 @@ export const Convertor: FC<ConvertorPropsInterface> = ({ currencies }) => {
                                     borderColor: 'black !important',
                                 },
                             }}
-                            className="currency-input"
+                            className="currencyInput"
                             placeholder="Currency"
                             value={currencyToValue.toFixed(1)}
                         />
