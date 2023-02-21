@@ -80,7 +80,7 @@ const ExchangeCalculator: React.FC  = () => {
     };
 
     return (
-        <div style={{display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20px"}}>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center", marginTop: "50px" }}>
             <div className='target'>
                 <input type="text" className='input' value={amount}
                        onChange={(e) => {

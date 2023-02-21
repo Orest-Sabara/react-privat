@@ -71,4 +71,7 @@ input:focus {
     border: 1px solid #ccc;
 }
 .table-container {
+    width: 86%;
+    margin: 0 auto;
+    text-align: center;
 }

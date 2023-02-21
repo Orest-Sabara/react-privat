@@ -7,6 +7,7 @@ import { throwFakeError } from '../../helpers';
 import { useAppSelector } from '../../hooks';
 
 import './TableDate.style.css';
+import {Convertor} from "../Convertor/convertor";
 
 export const TableDate: FC = () => {
     const { getCurrency } = useGetCurrency();
@@ -45,6 +46,7 @@ export const TableDate: FC = () => {
                         </tbody>
                     </table>
                 </div>
+                <Convertor currencies={currencies} />
             </div>
         </>
     );

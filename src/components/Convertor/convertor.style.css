@@ -1,0 +1,16 @@
+.change-currency-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.currency-input:hover {
+    cursor: not-allowed;
+}
+.swipe-button {
+    display: flex;
+    justify-content: center;
+}
+.swipe-button > svg {
+    cursor: pointer;
+}
